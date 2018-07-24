@@ -1,0 +1,15 @@
+/* Add a separator into nav bar options */
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+    background-color: #f8f9fa;
+}
+
+.breadcrumb {
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 30px 20px
+
+}
